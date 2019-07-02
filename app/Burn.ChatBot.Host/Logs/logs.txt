@@ -1,0 +1,594 @@
+2019-07-02 15:46:49.390 +08:00 [INF] Starting web host.
+2019-07-02 15:46:51.701 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:46:51.796 +08:00 [INF] Loaded ABP modules:
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 15:46:51.796 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 15:46:51.797 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 15:46:52.558 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 15:46:52.660 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:46:52.969 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:46:52.994 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:46:54.090 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/8c455791-9ce5-4b1a-a2b6-ebecaff2e5bd
+2019-07-02 15:46:54.090 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:46:55.099 +08:00 [INF] 15:46:55 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:46:56.511 +08:00 [WRN] Debugger attached.
+2019-07-02 15:46:58.759 +08:00 [INF] Executed page /Index in 5786.5754000000006ms
+2019-07-02 15:46:59.026 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: No JSON content found and type 'System.Int32' is not nullable. Path '', line 0, position 0.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync(INodeServices nodeServices) in G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\Pages\Index.cshtml.cs:line 12
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 15:46:59.029 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:46:59.273 +08:00 [INF] Request finished in 6614.1241ms 500 text/html; charset=utf-8
+2019-07-02 15:49:52.427 +08:00 [INF] Starting web host.
+2019-07-02 15:49:54.629 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:49:54.713 +08:00 [INF] Loaded ABP modules:
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 15:49:54.713 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 15:49:55.451 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 15:49:55.558 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:49:55.825 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:49:55.851 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:49:56.108 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/5b947ef9-0532-45ca-9e72-057a9b2a23dc
+2019-07-02 15:49:56.108 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:49:57.098 +08:00 [INF] 15:49:57 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:49:58.313 +08:00 [WRN] Debugger attached.
+2019-07-02 15:50:00.708 +08:00 [INF] Executed page /Index in 4881.4294ms
+2019-07-02 15:50:00.863 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 15:50:00.963 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: No JSON content found and type 'System.Int32' is not nullable. Path '', line 0, position 0.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync(INodeServices nodeServices) in G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\Pages\Index.cshtml.cs:line 12
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 15:50:00.966 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:50:01.260 +08:00 [INF] Request finished in 5703.3475ms 500 text/html; charset=utf-8
+2019-07-02 15:51:14.707 +08:00 [INF] Starting web host.
+2019-07-02 15:51:16.809 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:51:16.899 +08:00 [INF] Loaded ABP modules:
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 15:51:16.899 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 15:51:16.900 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 15:51:17.628 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 15:51:17.717 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:51:18.011 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:51:18.034 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:51:18.262 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/70f89b0a-9a9d-4829-a681-8445ecca4274
+2019-07-02 15:51:18.262 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:51:19.224 +08:00 [INF] 15:51:19 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:51:20.729 +08:00 [WRN] Debugger attached.
+2019-07-02 15:51:23.603 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 15:51:23.604 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:51:24.470 +08:00 [INF] Executed page /Index in 6457.0546ms
+2019-07-02 15:51:24.700 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: OnScan
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync(INodeServices nodeServices) in G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\Pages\Index.cshtml.cs:line 12
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 15:51:24.961 +08:00 [INF] Request finished in 7245.9957ms 500 text/html; charset=utf-8
+2019-07-02 15:52:17.081 +08:00 [INF] Starting web host.
+2019-07-02 15:52:19.314 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:52:19.408 +08:00 [INF] Loaded ABP modules:
+2019-07-02 15:52:19.408 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 15:52:19.409 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 15:52:20.140 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 15:52:20.270 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:52:20.584 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:52:20.606 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:52:20.838 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/69c5cdf7-62f2-4fd5-9d7c-9a7b32c8381f
+2019-07-02 15:52:20.838 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:52:21.776 +08:00 [INF] 15:52:21 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:52:23.337 +08:00 [WRN] Debugger attached.
+2019-07-02 15:52:25.562 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 15:52:25.575 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:52:26.423 +08:00 [INF] Executed page /Index in 5836.8322ms
+2019-07-02 15:52:26.661 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: OnScan11
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync(INodeServices nodeServices) in G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\Pages\Index.cshtml.cs:line 12
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 15:52:26.915 +08:00 [INF] Request finished in 6647.1549ms 500 text/html; charset=utf-8
+2019-07-02 15:53:45.043 +08:00 [INF] Starting web host.
+2019-07-02 15:53:47.256 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:53:47.347 +08:00 [INF] Loaded ABP modules:
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 15:53:47.347 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 15:53:48.085 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 15:53:48.185 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:53:48.453 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:53:48.480 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:53:48.810 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/57635aab-ad63-414c-9a9a-dc38ab4617d8
+2019-07-02 15:53:48.810 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:53:49.779 +08:00 [INF] 15:53:49 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:53:49.957 +08:00 [WRN] Debugger attached.
+2019-07-02 15:53:53.385 +08:00 [INF] Executed page /Index in 4929.6493ms
+2019-07-02 15:53:53.513 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 15:53:53.655 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: OnScan11
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync(INodeServices nodeServices) in G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\Pages\Index.cshtml.cs:line 12
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 15:53:53.658 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:53:53.944 +08:00 [INF] Request finished in 5760.2909ms 500 text/html; charset=utf-8
+2019-07-02 15:54:18.512 +08:00 [INF] OnScan
+2019-07-02 15:55:56.972 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:55:56.973 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:55:56.973 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:55:57.289 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/103aee1e-829f-412b-9fb3-c3d5e710009a
+2019-07-02 15:55:57.289 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:55:58.031 +08:00 [INF] 15:55:58 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:55:58.403 +08:00 [WRN] Debugger attached.
+2019-07-02 15:56:19.167 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 15:56:19.212 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:56:19.905 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/103aee1e-829f-412b-9fb3-c3d5e710009a
+2019-07-02 15:56:19.927 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:56:20.008 +08:00 [INF] Executed page /Index in 23034.6978ms
+2019-07-02 15:56:20.243 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: OnScan11
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync(INodeServices nodeServices) in G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\Pages\Index.cshtml.cs:line 12
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 15:56:20.253 +08:00 [INF] Request finished in 23281.6578ms 500 text/html; charset=utf-8
+2019-07-02 15:56:20.288 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/favicon.ico  
+2019-07-02 15:56:20.300 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\favicon.ico'
+2019-07-02 15:56:20.300 +08:00 [INF] Request finished in 12.4694ms 200 image/x-icon
+2019-07-02 15:56:28.732 +08:00 [INF] OnScan
+2019-07-02 15:57:42.145 +08:00 [INF] Starting web host.
+2019-07-02 15:57:44.458 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:57:44.546 +08:00 [INF] Loaded ABP modules:
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 15:57:44.546 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 15:57:45.362 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 15:57:45.454 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 15:57:45.735 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 15:57:45.761 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 15:57:51.456 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/37867846-2a71-4630-889c-e9243b10c5a7
+2019-07-02 15:57:51.456 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 15:57:52.339 +08:00 [INF] 15:57:52 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 15:57:55.514 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 15:57:55.518 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\WechatEveryDay.memory-card.json
+2019-07-02 15:58:10.499 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-07-02 15:58:10.501 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-07-02 15:58:10.501 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-07-02 15:58:10.635 +08:00 [INF] Executed page /Index in 24896.9883ms
+2019-07-02 15:58:10.643 +08:00 [INF] Request finished in 25190.3524ms 200 text/html; charset=utf-8
+2019-07-02 15:58:10.681 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/jquery/dist/jquery.js  
+2019-07-02 15:58:10.681 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/bootstrap/dist/css/bootstrap.css  
+2019-07-02 15:58:10.699 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/css/site.css  
+2019-07-02 15:58:10.701 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\css\site.css'
+2019-07-02 15:58:10.701 +08:00 [INF] Request finished in 2.8271ms 200 text/css
+2019-07-02 15:58:10.707 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\jquery\dist\jquery.js'
+2019-07-02 15:58:10.716 +08:00 [INF] Request finished in 26.9869ms 200 application/javascript
+2019-07-02 15:58:10.716 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-07-02 15:58:10.716 +08:00 [INF] Request finished in 35.0347ms 200 text/css
+2019-07-02 15:58:10.716 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-07-02 15:58:10.734 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-07-02 15:58:10.735 +08:00 [INF] Request finished in 18.3803ms 200 application/javascript
+2019-07-02 15:58:10.741 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2019-07-02 15:58:10.742 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\js\site.js'
+2019-07-02 15:58:10.742 +08:00 [INF] Request finished in 0.8067ms 200 application/javascript
+2019-07-02 15:58:20.526 +08:00 [INF] OnScan
+2019-07-02 16:16:16.856 +08:00 [INF] Starting web host.
+2019-07-02 16:16:19.227 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 16:16:19.318 +08:00 [INF] Loaded ABP modules:
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 16:16:19.318 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 16:16:20.018 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 16:16:20.120 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 16:16:20.398 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 16:16:20.421 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 16:16:20.647 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/8ab28022-4a25-45a3-ba68-407cda90c21d
+2019-07-02 16:16:20.647 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 16:16:21.594 +08:00 [INF] 16:16:21 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 16:16:25.220 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 16:16:25.237 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\botName.memory-card.json
+2019-07-02 16:16:25.284 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-07-02 16:16:25.286 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-07-02 16:16:25.286 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-07-02 16:16:25.406 +08:00 [INF] Executed page /Index in 5004.4622ms
+2019-07-02 16:16:25.431 +08:00 [INF] Request finished in 5308.6054ms 200 text/html; charset=utf-8
+2019-07-02 16:16:25.447 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/bootstrap/dist/css/bootstrap.css  
+2019-07-02 16:16:25.476 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-07-02 16:16:25.491 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2019-07-02 16:16:25.492 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/css/site.css  
+2019-07-02 16:16:25.493 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\css\site.css'
+2019-07-02 16:16:25.493 +08:00 [INF] Request finished in 1.6141ms 200 text/css
+2019-07-02 16:16:25.494 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\js\site.js'
+2019-07-02 16:16:25.494 +08:00 [INF] Request finished in 2.6146ms 200 application/javascript
+2019-07-02 16:16:25.494 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/jquery/dist/jquery.js  
+2019-07-02 16:16:25.516 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-07-02 16:16:25.516 +08:00 [INF] Request finished in 69.598ms 200 text/css
+2019-07-02 16:16:25.517 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-07-02 16:16:25.517 +08:00 [INF] Request finished in 41.1294ms 200 application/javascript
+2019-07-02 16:16:25.518 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\jquery\dist\jquery.js'
+2019-07-02 16:16:25.518 +08:00 [INF] Request finished in 24.2677ms 200 application/javascript
+2019-07-02 16:16:50.237 +08:00 [INF] OnScan
+2019-07-02 16:16:58.121 +08:00 [WRN] Debugger attached.
+2019-07-02 16:18:50.236 +08:00 [ERR] 16:18:50 WARN PuppetPuppeteer initScanWatchdog() on(reset) lastFood: https://login.weixin.qq.com/l/wcWRu7k8pQ==, timePast: 120000
+2019-07-02 16:18:51.731 +08:00 [INF] OnScan
+2019-07-02 16:19:16.776 +08:00 [INF] OnScan
+2019-07-02 16:26:33.964 +08:00 [INF] Starting web host.
+2019-07-02 16:26:36.240 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 16:26:36.329 +08:00 [INF] Loaded ABP modules:
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-07-02 16:26:36.329 +08:00 [INF] - Burn.ChatBot.Host.BurnChatBotHostModule
+2019-07-02 16:26:37.067 +08:00 [INF] Initialized all ABP modules.
+2019-07-02 16:26:37.170 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/  
+2019-07-02 16:26:37.439 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-07-02 16:26:37.465 +08:00 [INF] Executing handler method Burn.ChatBot.Host.Pages.IndexModel.OnGetAsync with arguments (["Microsoft.AspNetCore.NodeServices.NodeServicesImpl"]) - ModelState is "Valid"
+2019-07-02 16:26:37.690 +08:00 [WRN] Debugger listening on ws://127.0.0.1:9229/ac2185f6-e31b-43ea-8974-38099bbe58a4
+2019-07-02 16:26:37.690 +08:00 [ERR] For help, see: https://nodejs.org/en/docs/inspector
+2019-07-02 16:26:38.619 +08:00 [INF] 16:26:38 INFO Wechaty <default> start() v0.27.37 is starting...
+2019-07-02 16:26:39.256 +08:00 [WRN] Debugger attached.
+2019-07-02 16:26:42.164 +08:00 [INF] 寮€濮嬬櫥闄嗗井淇?OnScan
+2019-07-02 16:26:42.189 +08:00 [INF] Node will restart because file changed: G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\botName.memory-card.json
+2019-07-02 16:26:42.241 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-07-02 16:26:42.243 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-07-02 16:26:42.243 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-07-02 16:26:42.353 +08:00 [INF] Executed page /Index in 4911.89ms
+2019-07-02 16:26:42.370 +08:00 [INF] Request finished in 5201.1047ms 200 text/html; charset=utf-8
+2019-07-02 16:26:42.406 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-07-02 16:26:42.406 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2019-07-02 16:26:42.417 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\js\site.js'
+2019-07-02 16:26:42.417 +08:00 [INF] Request finished in 11.1771ms 200 application/javascript
+2019-07-02 16:26:42.418 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/jquery/dist/jquery.js  
+2019-07-02 16:26:42.429 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/lib/bootstrap/dist/css/bootstrap.css  
+2019-07-02 16:26:42.429 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44309/css/site.css  
+2019-07-02 16:26:42.437 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\css\site.css'
+2019-07-02 16:26:42.438 +08:00 [INF] Request finished in 9.0925ms 200 text/css
+2019-07-02 16:26:42.445 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-07-02 16:26:42.445 +08:00 [INF] Request finished in 39.2947ms 200 application/javascript
+2019-07-02 16:26:42.445 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\jquery\dist\jquery.js'
+2019-07-02 16:26:42.445 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'G:\WorkFolder\NetWork\Burn.ChatBot\app\Burn.ChatBot.Host\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-07-02 16:26:42.445 +08:00 [INF] Request finished in 27.3033ms 200 application/javascript
+2019-07-02 16:26:42.445 +08:00 [INF] Request finished in 16.9849ms 200 text/css
+2019-07-02 16:27:02.176 +08:00 [INF] OnScan
+2019-07-02 16:27:03.189 +08:00 [INF] OnScan
+2019-07-02 16:27:36.493 +08:00 [INF] 璐村績灏忓姪鐞咰ontact<if>鐧诲綍浜?鍙戞秷鎭汉: 鐜嬮棰?娑堟伅鍐呭: 瀵瑰笎閲屾病鏈夋敼鍛€
+2019-07-02 16:28:01.034 +08:00 [INF] 鍙戞秷鎭汉: 鐜嬮棰?娑堟伅鍐呭: 鍜嬫悶锛?鍙戞秷鎭汉: 鐜嬮棰?娑堟伅鍐呭: 瀵瑰笎涔熻鏀?鍙戞秷鎭汉: 鐜嬮棰?娑堟伅鍐呭: 浣犲
